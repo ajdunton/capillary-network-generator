@@ -1,6 +1,6 @@
 # Capillary Network Generator
 
-This program creates a representation of *capillary infrastructure, which we define as the small-scale infrastructure that connect to every building. Specifically in the implemented program, we generate combined sewer networks. Modifications may be made to generate other types of capillary infrastructure.
+This program creates a representation of *capillary* infrastructure, which we define as the small-scale infrastructure that connect to every building. Specifically in the implemented program, we generate combined sewer networks. Modifications may be made to generate other types of capillary infrastructure.
 
 # Inputs
 
