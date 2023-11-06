@@ -20,7 +20,7 @@ The script produces the following outputs that define the capillary network.
 - outnodes: shapefile of network nodes, including attributes that define inflow at each node
 
 <p align="center">
-  <img src="https://github.com/ajdunton/capillary-network-generator/assets/147078788/5ff7e8f5-b79f-48ab-943b-6bf9c29b620b" width="300">
+  <img src="https://github.com/ajdunton/capillary-network-generator/assets/147078788/5ff7e8f5-b79f-48ab-943b-6bf9c29b620b" width="400">
 </p>
 <p align="center">
   Output Network Nodes and Edges
