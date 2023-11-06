@@ -31,7 +31,7 @@ The script produces the following outputs that define the capillary network.
 The following is a brief overview of the 3-step procedure that is implemented in script.py. Note that params.py and funcs.py are modules that are imported into script.py. These modules contain parameters/constants and functions, respectively. 
 
 ## 1. Generate the Network Topology
-To generate the topology, we first assign each building to a street segment and determine wastewater/demand nodes based on the assignment. For combined sewer networks, there are also nodes for stormwater inflow. We determine a tree topology for the combined sewer network as an optimal spanning tree of the wastewater and stormwater nodes.
+To generate the topology, we first assign each building to a street segment and determine wastewater/demand nodes based on the assignment. For combined sewer networks, there are also nodes for stormwater inflow. We determine a tree topology for the combined sewer network as an optimal spanning tree of the wastewater and stormwater nodes. We use the elevation to determine weights for each edge. See [REF] where different formulations of this weight were tested. Comparison with the network topology for a case study location concluded that the hybrid-elevation formulation yields realistic results. This option is specified as 
 
 ## 2. Estimate the Resource Demand at Each Node
 We use either a building-based or population-based method to estimate the inflow at each wastewater node. The building-based method is based on the footprint area of each building and the population-based method uses a population attribute saved in the input buildings shapefile. That is, if using the population-based method, the building footprints shapefile must have a population column.
