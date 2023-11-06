@@ -36,12 +36,12 @@ To generate the topology, we first assign each building to a street segment and 
 ## 2. Estimate the Resource Demand at Each Node
 We use either a building-based or population-based method to estimate the inflow at each wastewater node. The building-based method is based on the footprint area of each building and the population-based method uses a population attribute saved in the input buildings shapefile. That is, if using the population-based method, the building footprints shapefile must have a population column.
 
-For stormwater inflow, we use Voronoi polygons to determine geographic areas associated with each stormwater node. Then, we estimate the inflow using the rational method.
+For stormwater inflow, we use Voronoi polygons to determine geographic areas associated with each stormwater node. Then, we estimate the inflow using the standard rational method.
 
 ## 3. Choose Components
 We choose each pipe from a set of standard available pipes, each with a corresponding slope and flow capacity. We choose the smallest pipe with adequate flow capacity.
 
 # Reference
-See the following paper for further details about this network generator and validation for a case study locaiton.
+See the following paper for further details about this procedure and validation for a case study.
 
 [Citation]
