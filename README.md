@@ -20,12 +20,11 @@ The script produces the following outputs that define the capillary network.
 - outnodes: shapefile of network nodes, including attributes that define inflow at each node
 
 <p align="center">
-  <img src="https://github.com/ajdunton/capillary-network-generator/assets/147078788/5ff7e8f5-b79f-48ab-943b-6bf9c29b620b" width="400">
+  <img src="https://github.com/ajdunton/capillary-network-generator/assets/147078788/74bebab9-113a-4f0d-9395-021f0c281d5d" width="400">
 </p>
 <p align="center">
   Output Network Nodes and Edges
 </p>
-
 
 # Procedure
 The following is a brief overview of the 3-step procedure that is implemented in script.py. Note that params.py and funcs.py are modules that are imported into script.py. These modules contain parameters/constants and functions, respectively. 
