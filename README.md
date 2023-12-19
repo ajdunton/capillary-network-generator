@@ -1,4 +1,5 @@
 # Capillary Network Generator
+Author: Aaron Dunton (ajdunton@gmail.com)
 
 This program creates a representation of *capillary* infrastructure, which we define as the small-scale infrastructure that connect to every building. Specifically in the implemented program, we generate combined sewer networks. Modifications may be made to generate other types of capillary infrastructure.
 
