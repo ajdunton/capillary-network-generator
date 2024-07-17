@@ -43,4 +43,4 @@ We choose each pipe from a set of standard available pipes, each with a correspo
 # Reference
 See the following paper for further details about this procedure and validation for a case study.
 
-Dunton, A., and Gardoni, P. (2023). Generating network representations of small-scale infrastructure using generally available data. *Computer-Aided Civil and Infrastructure Engineering*, 1–16. https://doi.org/10.1111/mice.13137
+Dunton, A., and Gardoni, P. (2024). Generating network representations of small-scale infrastructure using generally available data. *Computer-Aided Civil and Infrastructure Engineering*, 39(8):1143-1158. https://doi.org/10.1111/mice.13137
